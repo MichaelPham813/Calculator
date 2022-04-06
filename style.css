@@ -1,0 +1,198 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+@font-face
+{
+    font-family: nostalgia-font;
+    src:url(./Font/PressStart2P-Regular.ttf);
+}
+
+button
+{
+    font-family: nostalgia-font;
+    background-color: #306230;
+    border: 2px none;
+    color: #9bbc0f;
+}
+
+div
+{
+    font-family: nostalgia-font;
+}
+
+#outsideHolder
+{
+    margin:10px 80vh;
+    padding:5px;
+    height:100%;
+    background-color: #0f380f;
+    border-radius:5px;
+}
+#textHolder
+{
+    margin:10px 15px;
+    background-color: 	#aaaaaa;
+    text-align: right;
+}
+p
+{
+    margin:0px 15px;
+}
+
+#buttonHolder
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-style:solid;
+    border-color: #8bac0f;
+}   
+#upperHolder
+{
+    border-style:solid;
+    border-color:#8bac0f;
+}
+#numberBtnHolder
+{
+    display:grid;
+    gap:10px;
+    margin:10px 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#formulaBtnHolder
+{
+    display:flex;
+    flex-direction: column;
+    margin:0px 10px;
+    gap:6px;
+}
+
+#delete-clearBtn
+{
+    display:flex;
+    margin:10px auto;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.clearBtn
+{
+    padding:10px 23px; 
+}
+.deleteBtn
+{
+    padding: 10px 23px;
+}
+
+.display
+{
+    display:inline-block;
+    margin:5px;
+    text-align: right;
+    width:150px;
+}
+
+.numberButtons
+{
+    width:100%;
+    font-size:large;
+    padding:10px;
+    border: 2px none black;
+    border-radius:2px;
+}
+.numberButtons:hover
+{
+    cursor:pointer;
+}
+
+/* 
+#numberBtnHolder:last-child
+{
+    width:150px;
+} */
+
+.formulaBtn
+{
+    
+    font-size:large;
+    padding:6.5px;
+    text-align: center;
+    align-items: center;
+
+}
+.formulaBtn:hover
+{
+    cursor:pointer;
+}
+
+@media screen and (max-width:1029.33px) 
+{
+    #outsideHolder
+    {
+        margin:10px 65vh;
+    }    
+}
+
+@media screen and (max-width: 859px) 
+{
+    #outsideHolder
+    {
+        margin:10px 50vh;
+    }
+}
+
+@media screen and (max-width:650px)
+{
+    #outsideHolder
+    {
+        margin:10px 34vh;
+    }
+}
+[contentEditable=false]:empty:not(:focus):before
+{
+    content:attr(data-text)
+}
+
+@media screen and (max-width:550px)
+{
+    #outsideHolder
+    {
+        margin:10px 25vh;
+    }
+}
+
+@media screen and (max-width:450px)
+{
+    #outsideHolder
+    {
+        margin:10px 10vh;
+    }
+}
+
+@media screen and (max-width:350px)
+{
+    #outsideHolder
+    {
+        margin:10px 10vh;
+    }
+}
+
+@media screen and (max-width:210px)
+{
+    #outsideHolder
+    {
+        margin:25vh 1vh;
+    }
+}
+@media screen and (max-width:150px) 
+{
+    #outsideHolder
+    {
+        margin:0px;
+    }    
+}

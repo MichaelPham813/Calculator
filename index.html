@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id = "outsideHolder">
+        <div id = "upperHolder">
+            <div id = "textHolder">
+                <div id="prev" class = "display"></div>
+                <div id="cur" class = "display">0</div>
+            </div>
+            <div id = "delete-clearBtn">
+                <button class = "clearBtn" value = "clear" data-key = "Delete">Clear</button>
+                <button class = "deleteBtn" value = "deletes" data-key = "Backspace">Delete</button>
+            </div>
+        </div>
+        <div id = "buttonHolder">
+
+            <div id = "numberBtnHolder">
+
+            </div>
+            <div id = "formulaBtnHolder">
+                <button class="formulaBtn" value = "plus" data-key = "+">+</button>
+                <button class="formulaBtn" value = "subtract" data-key = "-">-</button>
+                <button class="formulaBtn" value = "multiply" data-key = "*">*</button>
+                <button class="formulaBtn" value = "divide" data-key = "/">/</button>
+                <button class="formulaBtn" value = "equal" data-key = "=">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" ></script>
+</body>
+</html>
